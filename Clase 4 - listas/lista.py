@@ -38,3 +38,14 @@ print(colores)
 #ordenar por orden alfabético
 colores.sort()
 print(colores)
+
+#agregar otro array
+colores_2 = ['naranja','fuxia','lila']
+colores.extend(colores_2)
+print(colores)
+
+#modificar
+colores_tres = colores
+colores_tres[1] = 'negro'
+print(colores_tres[1])
+print(colores[1])
